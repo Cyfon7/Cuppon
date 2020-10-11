@@ -1,0 +1,111 @@
+body {
+  padding-top: 32px;
+
+  background-color: #ffffff;
+  color: #212529;
+  font-family: 'Roboto', sans-serif;
+}
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+#navbarNav{
+  align-items: center;
+}
+
+#cupones .col{
+  margin-top: 2rem;
+  align-content: center;
+}
+
+.card {
+  width: 278px;
+  font-size: 1rem;
+}
+
+.card img {
+  height: 180px;
+}
+
+.card-body {
+  padding: 14px 23px 15px 16px;
+}
+
+.card-title, .card-text, .dir-text {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #707070;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  color: #212529;
+}
+
+.vend-text {
+  margin-bottom: -8px;
+}
+
+.dir-text {
+  font-size: 0.813rem;
+}
+
+.separador {
+  margin-top: 11px;
+  margin-bottom: 14px;
+}
+
+.card-link {
+  font-size: 1.25rem;
+}
+
+#form-recibe {
+  margin-top: 3rem;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+#form-recibe form * {
+  margin-bottom: 0.875rem;
+}
+
+#form-recibe  h5 {
+  font-size: 21px;
+}
+
+#form-recibe input {
+  font-weight: 300;
+}
+
+#form-recibe button {
+  font-weight: 500;
+  background-color: #dddddd;
+  padding: 0.5rem 2.15rem;
+}
+
+footer img {
+  margin-top: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+footer p {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.188rem;
+  color: #707070;
+  padding-bottom: 1.375rem;
+}
+
+@media (min-width: 540px){
+
+  #cupones {
+    margin-top: 3rem;
+  }
+
+  #form-recibe .container {
+    width: 320px;
+  }
+
+}
